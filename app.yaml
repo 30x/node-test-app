@@ -1,0 +1,6 @@
+runtime: container
+threadsafe: true
+instance_class: F4
+handlers:
+- url: /.*
+ script: main.app
